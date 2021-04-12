@@ -1,0 +1,5 @@
+year = int(input("Enter the 4 digit year: "))
+first = bool(year % 4)
+second = bool(year % 100)
+third = bool(year % 400)
+print(not first and not third or second)
