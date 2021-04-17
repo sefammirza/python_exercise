@@ -1,8 +1,8 @@
-"""
+
 age = 18
 if age >= 18:
     print("Oy kullanabilirsiniz")
-    """
+    
     
 
 my_list = ['ahmet', 'mehmet', 'ebru']
