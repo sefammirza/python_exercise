@@ -1,7 +1,7 @@
 while True:
     value = input('Please enter number: ')
     if not(value.isnumeric()):
-        print("yanlis girdin ")
+        print("You entered wrong")
     else:
         break
 if int(value) == 2:
