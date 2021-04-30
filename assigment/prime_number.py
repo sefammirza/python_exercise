@@ -5,7 +5,7 @@ while True:
     else:
         break
 if int(value) == 2:
-    print("bu bir asal sayidir")
+    print("This is a prime number")
 else:
     for i in range(2, int(value)):
         if (int(value) %i) == 0:
