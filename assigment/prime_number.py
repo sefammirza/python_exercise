@@ -1,5 +1,5 @@
 while True:
-    value = input('please entera number: ')
+    value = input('Please enter number: ')
     if not(value.isnumeric()):
         print("yanlis girdin ")
     else:
