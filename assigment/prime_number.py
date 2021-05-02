@@ -5,11 +5,11 @@ while True:
     else:
         break
 if int(value) == 2:
-    print("This is a prime number.")
+    print("2 is a prime number.")
 else:
     for i in range(2, int(value)):
         if (int(value) %i) == 0:
-            print("This is not a prime number.")
+            print("{}  is not a prime number.".format(value))
             break
     else:
-        print("This is the prime number.")
+        print("{} is the prime number.".format(value))
