@@ -1,4 +1,4 @@
-value = int(input("lütfen bir değer giriniz: "))
+value = int(input("Lütfen bir değer giriniz: "))
 liste = []
 for i in range(2, int(value)):
     for x in (range(2, i)):
