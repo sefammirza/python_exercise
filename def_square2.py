@@ -9,6 +9,5 @@ def model2(n):
                 print("#", end=" ")
             j = j+1
         print()
-        i = i+1
-        
+        i = i+1     
 model2(10)
